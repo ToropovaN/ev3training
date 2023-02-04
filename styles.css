@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  margin: 5px;
+}
+button:hover {
+  opacity: 0.7;
+}
+button:active {
+  filter: brightness(90%);
+}
+#question {
+  width: 700px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#imgBlock {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  background-image: url("https://thumbs.gfycat.com/SeparateFeistyGoa-size_restricted.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#img {
+  height: 200px;
+  width: 200px;
+  margin: auto;
+}
+#form {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr;
+}
+#buttonsBlock {
+  display: flex;
+  justify-content: space-between;
+}
+.formTitle {
+  font-weight: 800;
+  text-align: center;
+}
+.formField {
+  line-height: 150%;
+  background-color: #fffad1;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.correct + label {
+  text-decoration: underline;
+}
+.green + label {
+  color: #13b945;
+}
+.red + label {
+  color: #da2323;
+}

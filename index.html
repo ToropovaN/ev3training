@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>TEST EV3</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="question">
+      <div id="imgBlock"></div>
+      <form id="form">
+        <div>
+          <div class="formTitle">Деталь:</div>
+          <div id="detailForm" class="formField"></div>
+        </div>
+        <div>
+          <div class="formTitle">Модификаторы:</div>
+          <div id="modForm" class="formField"></div>
+        </div>
+
+        <div>
+          <div class="formTitle">На:</div>
+          <div id="forForm" class="formField"></div>
+        </div>
+      </form>
+      <div id="buttonsBlock">
+        <button style="background-color: #fffad1" onclick="getQuestion()">
+          Новый вопрос
+        </button>
+        <button style="background-color: #ffd49c" onclick="checkAnswer()">
+          Проверить ответ
+        </button>
+      </div>
+    </div>
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
